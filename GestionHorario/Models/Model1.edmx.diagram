@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1307b8169cd14e1cbde797312fd72e33" Name="Diagram1" ZoomLevel="65">
+        <EntityTypeShape EntityType="GestionHorariosModel.Persona" Width="1.5" PointX="11.5" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionHorariosModel.Rol" Width="1.5" PointX="5.25" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionHorariosModel.Sexo" Width="1.5" PointX="9.625" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionHorariosModel.Usuario" Width="1.5" PointX="7.5" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="GestionHorariosModel.FK_Persona_Sexo" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionHorariosModel.FK_Usuario_Persona" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionHorariosModel.Usuario_Rol" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
